@@ -1,4 +1,4 @@
-FROM codeworksio/python:3.6-20180212
+FROM resin/raspberry-pi-alpine-python:3.6-slim
 
 ENV DNSOMATIC_USERNAME="username" \
     DNSOMATIC_PASSWORD="password" \
